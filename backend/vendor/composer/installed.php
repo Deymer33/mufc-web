@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'web-mufc/backend',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '248cd336f577ee06dae53f90d643b8109ef6d65f',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'paragonie/constant_time_encoding' => array(
+            'pretty_version' => 'v3.0.0',
+            'version' => '3.0.0.0',
+            'reference' => 'df1e7fde177501eee2037dd159cf04f5f301a512',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../paragonie/constant_time_encoding',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'pragmarx/google2fa' => array(
+            'pretty_version' => '9.x-dev',
+            'version' => '9.9999999.9999999.9999999-dev',
+            'reference' => '94a5758f3f9a6825f39a625a856ae6af7ad54d38',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../pragmarx/google2fa',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'web-mufc/backend' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '248cd336f577ee06dae53f90d643b8109ef6d65f',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

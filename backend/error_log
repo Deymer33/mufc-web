@@ -1,0 +1,22 @@
+[20-Nov-2024 16:59:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\mufc-web\backend\src\model\model.login.php:18
+Stack trace:
+#0 C:\xampp\htdocs\mufc-web\backend\src\controller\controller.login.php(22): LoginModel->loginUser('calor@los.com', 'contrasenaSegur...')
+#1 C:\xampp\htdocs\mufc-web\backend\src\router\routes.php(31): LoginController->login('calor@los.com', 'contrasenaSegur...')
+#2 C:\xampp\htdocs\mufc-web\backend\src\index.php(11): Router->handleRequest()
+#3 {main}
+  thrown in C:\xampp\htdocs\mufc-web\backend\src\model\model.login.php on line 18
+[20-Nov-2024 16:59:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\mufc-web\backend\src\model\model.user.php:18
+Stack trace:
+#0 C:\xampp\htdocs\mufc-web\backend\src\controller\controller.user.php(25): UserModel->register('lucrecio', 'septima', '2005-02-03', 'columis', 'cola', 'calle35', 'calor@los.com', 'contrasenaSegur...')
+#1 C:\xampp\htdocs\mufc-web\backend\src\router\routes.php(20): UserController->register(Array)
+#2 C:\xampp\htdocs\mufc-web\backend\src\index.php(11): Router->handleRequest()
+#3 {main}
+  thrown in C:\xampp\htdocs\mufc-web\backend\src\model\model.user.php on line 18
+[20-Nov-2024 17:00:26 Europe/Berlin] PHP Fatal error:  Uncaught Exception: Error al registrar el bono: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_wallet' in 'field list' in C:\xampp\htdocs\mufc-web\backend\src\model\model.user.php:83
+Stack trace:
+#0 C:\xampp\htdocs\mufc-web\backend\src\model\model.user.php(47): UserModel->bonusRegister('1985-02-03', '2')
+#1 C:\xampp\htdocs\mufc-web\backend\src\controller\controller.user.php(25): UserModel->register('andrea', 'carlaa', '1985-02-03', 'columis', 'cola', 'calle34', 'perro@patos.com', 'contrasenaSegur...')
+#2 C:\xampp\htdocs\mufc-web\backend\src\router\routes.php(20): UserController->register(Array)
+#3 C:\xampp\htdocs\mufc-web\backend\src\index.php(11): Router->handleRequest()
+#4 {main}
+  thrown in C:\xampp\htdocs\mufc-web\backend\src\model\model.user.php on line 83

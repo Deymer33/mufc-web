@@ -1,0 +1,23 @@
+{
+    "name": "web-mufc/backend",
+    "description": "api backend para web-mufc",
+    "type": "library",
+    "require": {
+        "pragmarx/google2fa": "9.x-dev"
+    },
+    "require-dev": {
+        "pragmarx/google2fa": "9.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebMufc\\Backend\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Deimer33",
+            "email": "deimer.ospino.arteta@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
